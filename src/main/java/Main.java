@@ -35,9 +35,8 @@ import java.util.Scanner;
             map.put('z', "9999");
             map.put(' ', "0");
 
-            int n = in.nextInt();
-            in.nextLine();
-            for (int i = 0; i < n; i++) {
+         //   int n = in.nextInt();
+           // for (int i = 0; i < n; i++) {
                 String answer = "";
                 String s = in.nextLine();
                 for(int j = 0; j < s.length(); j++) {
@@ -51,5 +50,5 @@ import java.util.Scanner;
             }
 
         }
-    }
+    //}
 
